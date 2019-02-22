@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CSS Spotlight Performances</string>
+    <string name="textViewTitle">Upcoming Events</string>
+    <string name="textViewDescription1">Twin Ports Choral Project-All Things New \n Friday, February 22, 2019, 7:30 – 9:30 p.m. \n Mitchell Auditorium</string>
+    <string name="textViewDescription2">Health, Wholeness, and Humanity: The Stewardship of Creation as if Matter Matters \n Tuesday, February 26, 2019, 7:30 – 8:30 p.m. \n Burns Wellness Center 249</string>
+    <string name="textViewDescription3">The Francis X. Shea Memorial Lecture Presents Poet Jane Hirshfield \n Tuesday, March 5, 2019, 7:30 – 9:30 p.m. \n Mitchell Auditorium</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="map">Map</string>
+    <string name="web_info">Web Info</string>
+
 </resources>

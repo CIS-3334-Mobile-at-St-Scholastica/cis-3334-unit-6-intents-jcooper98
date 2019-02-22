@@ -15,9 +15,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Upcoming Events"
-        android:textSize="18sp"
-        android:textAlignment="center" />
+        android:text="@string/textViewTitle"
+        android:textAlignment="center"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -25,18 +25,18 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/spotlight1"
-            android:id="@+id/imageButton"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/event1" />
 
         <TextView
-            android:text="SAL Colloquium “The Robot Next Door” \nFriday, February 24, 2017, 3:40 – 4:40 p.m.\nTower Hall 4119"
+            android:id="@+id/textViewDescription1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="@string/textViewDescription1" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,21 +45,21 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:text="Web Info"
+            android:text="@string/web_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button1WebInfo"
             android:layout_weight="1" />
 
         <Button
-            android:text="Add to Calendar"
+            android:text="@string/add_to_calendar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button1Calendar"
             android:layout_weight="1" />
 
         <Button
-            android:text="Map"
+            android:text="@string/map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button1map"
@@ -67,7 +67,119 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textViewStatus1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewStatus" />
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/event2" />
+
+        <TextView
+            android:id="@+id/textViewDescription2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textViewDescription2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2WebInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/web_info" />
+
+        <Button
+            android:id="@+id/button2Calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_to_calendar" />
+
+        <Button
+            android:id="@+id/button2map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/map" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/event3" />
+
+        <TextView
+            android:id="@+id/textViewDescription3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textViewDescription3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button3WebInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/web_info" />
+
+        <Button
+            android:id="@+id/button3Calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_to_calendar" />
+
+        <Button
+            android:id="@+id/button3map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/map" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
+
+
+
+
+
+
